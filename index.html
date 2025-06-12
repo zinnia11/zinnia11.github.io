@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon"> -->
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="./utils.js"></script>
     
   </head>
 
@@ -16,6 +17,7 @@
     <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
       <tr style="padding:0px">
         <td style="padding:0px">
+
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr style="padding:0px">
               <td style="padding:2.5%;width:30%;max-width:37%">
@@ -39,24 +41,80 @@
               </td>
             </tr>
           </tbody></table>
+
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
-              <tr>
+              <tr style="padding:0px">
               <td style="padding:16px;width:100%;vertical-align:middle">
-                <!-- <h2>About me</h2>
+                <h2 style="text-align: center;">About Me</h2>
+                <!-- <hr> -->
                 <p>
-                  Hello! I am a first-year Master's student at the University of Michigan. 
+                  Hello! I am a first-year Master's student at the University of Michigan. I recieved my bachelor's of science at the University of Wisconsin-Madison, majoring in Computer Science and Data Science with a certificate/minor in Game Design. 
                 </p>
                 <p>
-                  My research interests lie in natural language processing, specifically working to understand 
-                </p> -->
+                  My research interests lie in creating trustworthy AI, specifically in the field of natural language processing, through improving the correctness of language models by developing metrics and benchmarks that can more accuraately assess the quality of a language model. 
+                  I am also interesting in building agentic models, and allowing AI models to interact with the real world. 
+                </p>
               </td>
             </tr>
           </tbody></table>
+          <!-- Research work here -->
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
-            
+              <tr style="padding:0px">
+                <td style="padding:16px;width:20%;vertical-align:middle">
+                  <h2>Research</h2>
+                </td>
+                <td style="padding:8px;width:80%;vertical-align:middle">
+
+                </td>
+              </tr>
+              <tr>
+                <td width="25%" id="CuRe-img"></td>
+                <td valign="top" width="75%" id="CuRe-txt"></td>
+              </tr>
+              <script type="text/javascript">
+                createProjectElement(
+                  id = "CuRe", {
+                  title: "CuRe: Cultural Gaps in the Long Tail of Text-to-Image Systems",
+                  paper_url: "https://arxiv.org/pdf/2401.00588.pdf",
+                  authors: "<a href=\"https://aniketrege.github.io/\">Aniket Rege</a>, <strong>Zinnia Nie</strong>, <a href=\"https://www.linkedin.com/in/mahesh-r-21a4981a4/\">Mahesh Ramesh</a>, <a href=\"https://www.linkedin.com/in/unmesh-raskar/\">Unmesh Raskar</a>, <a href=\"https://www.zhuoranyu.com/\">Zhuoran Yu</a>, <a href=\"https://homes.cs.washington.edu/~kusupati/\">Aditya Kusupati</a>, <a href=\"https://pages.cs.wisc.edu/~yongjaelee/\">Yong Jae Lee</a>, and <a href=\"https://ramyakv.github.io/\">Ramya Korlakai Vinayak</a>",
+                  conference: "CVPR DemoDiv workshop, 2025",
+                  image: "images/cure_system_use.jpg",
+                  others: "<a href=\"https://aniketrege.github.io/cure/\">Project page</a> / <a href=\"https://arxiv.org/abs/2506.08071\">arXiv</a> / <a href=\"https://github.com/aniketrege/cure-bench\">Code</a>"
+                });
+              </script>
+              <!-- <tr>
+                <td style="padding:16px;width:20%;vertical-align:middle">
+                  <div class="one">
+                    <img src='images/cure_system_use.jpg' width="160">
+                  </div>
+                </td>
+                <td style="padding:8px;width:80%;vertical-align:middle">
+                  <a href="https://arxiv.org/abs/2506.08071">
+                  <span class="papertitle">CuRe: Cultural Gaps in the Long Tail of Text-to-Image Systems</span>
+                  </a>
+                  <br>
+                  <a href="https://aniketrege.github.io/">Aniket Rege</a>, 
+                  <strong>Zinnia Nie</strong>, 
+                  <a href="https://www.linkedin.com/in/mahesh-r-21a4981a4/">Mahesh Ramesh</a>, 
+                  <a href="https://www.linkedin.com/in/unmesh-raskar/">Unmesh Raskar</a>, 
+                  <a href="https://www.zhuoranyu.com/">Zhuoran Yu</a>, 
+                  <a href="https://homes.cs.washington.edu/~kusupati/">Aditya Kusupati</a>, 
+                  <a href="https://pages.cs.wisc.edu/~yongjaelee/">Yong Jae Lee</a>, and 
+                  <a href="https://ramyakv.github.io/">Ramya Korlakai Vinayak</a>
+                  <br>
+                  <em>CVPR DemoDiv workshop</em>, 2025 
+                  <br>
+                  <a href="https://aniketrege.github.io/cure/">Project page</a>
+                  /
+                  <a href="https://arxiv.org/abs/2506.08071">arXiv</a>
+                  /
+                  <a href="https://github.com/aniketrege/cure-bench">Code</a>
+                </td>
+              </tr> -->
           </tbody></table>
+
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
             <tr>

@@ -96,6 +96,12 @@ h2 {
   font-size: 22px;
 }
 
+hr {
+  border-top: 1px solid black; /* Creates a solid black line */
+  border-bottom: 0; /* Removes the bottom border */
+  width: 50%; /* Makes the line 50% of the parent element's width */
+}
+
 .papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
